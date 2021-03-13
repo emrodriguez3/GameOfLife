@@ -1,6 +1,6 @@
 import de.bezier.guido.*;
- public final static int NUM_ROWS = 40;
- public final static int NUM_COLS = 40;
+ public final static int NUM_ROWS = 100;
+ public final static int NUM_COLS = 100;
  private Life[][] buttons;
  private boolean[][] buffer; 
  private boolean running = true; 

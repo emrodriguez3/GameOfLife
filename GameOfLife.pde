@@ -5,12 +5,9 @@ import de.bezier.guido.*;
  private boolean[][] buffer; 
  private boolean running = true; 
 
- public void settings() {
- size(800, 800);
- }
 
  public void setup () {
-
+ size(800, 800);
  frameRate(6);
  Interactive.make( this );
  buttons = new Life[NUM_ROWS][NUM_COLS];
